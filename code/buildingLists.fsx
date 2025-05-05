@@ -47,6 +47,7 @@ myList {
     yield 4
 }
 
+
 // `yield`is implied and can be omitted
 myList {
     1
@@ -59,6 +60,7 @@ myList {
 // We use `;` to separate the elements
 // Why? Because `,` is used to denote a tuple!
 myList { 1; 2; 3; 4 }
+
 
 // ... we have successfully created a list comprehension `myList { ... }`
 // that works like the built-in list comprehension `[ ... ]`
